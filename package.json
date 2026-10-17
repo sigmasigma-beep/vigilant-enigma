@@ -1,0 +1,14 @@
+{
+  "name": "electro-uv",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node setup.mjs",
+    "deploy": "node setup.mjs && firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "@mercuryworkshop/bare-mux": "^2.1.7",
+    "@mercuryworkshop/epoxy-transport": "^2.1.0",
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.10"
+  }
+}

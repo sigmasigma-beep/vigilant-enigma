@@ -1,0 +1,7 @@
+{
+  "name": "electro-uv-wisp",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node server.mjs" },
+  "dependencies": { "wisp-server-node": "^1.1.7" }
+}
